@@ -1,6 +1,6 @@
-<mxfile modified="2023-01-29T14:34:20.259Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="snAUvElSLrxWtWUxR4Ls" version="20.1.1" type="github" pages="2">
+<mxfile modified="2023-01-29T16:32:47.252Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="sLGRTLkC1NMqHcKhV2xm" version="20.1.1" type="github" pages="2">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Legacy System Logging Design">
-    <mxGraphModel dx="3178" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3512" dy="1200" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,10 +10,10 @@
         <mxCell id="6P1dQhzVNRteQkiBNvnG-90" value="Public VNET" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;fillColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-255" y="120" width="150" height="1035" as="geometry" />
         </mxCell>
-        <mxCell id="6P1dQhzVNRteQkiBNvnG-46" value="DEV" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="6P1dQhzVNRteQkiBNvnG-46" value="DEV" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;verticalAlign=top;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-40" y="190" width="580" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="6P1dQhzVNRteQkiBNvnG-4" value="Logging Dev Cluster" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;verticalAlign=top;align=left;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="6P1dQhzVNRteQkiBNvnG-4" value="Logging Dev Cluster" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;verticalAlign=top;align=left;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="790" y="473" width="550" height="390" as="geometry" />
         </mxCell>
         <mxCell id="jx5Sq5pK0tMywnnzH5d8-2" value="Server 1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=2;" vertex="1" parent="1">
@@ -138,7 +138,7 @@
         <mxCell id="6P1dQhzVNRteQkiBNvnG-66" value="QA Users" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;" vertex="1" parent="1">
           <mxGeometry x="1020" y="304" width="78" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="6P1dQhzVNRteQkiBNvnG-73" value="QA" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="6P1dQhzVNRteQkiBNvnG-73" value="QA" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;verticalAlign=top;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-40" y="700" width="580" height="440" as="geometry" />
         </mxCell>
         <mxCell id="6P1dQhzVNRteQkiBNvnG-74" value="Server 1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=2;" vertex="1" parent="1">
@@ -199,10 +199,36 @@
     </mxGraphModel>
   </diagram>
   <diagram id="68_evQCe-Yq9WrYagMP9" name="Azure AppInsights">
-    <mxGraphModel dx="1406" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2256" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ojg3U4iiqFWatlMNmjwo-1" value="DEV" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;verticalAlign=top;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="190" width="260" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ojg3U4iiqFWatlMNmjwo-2" value="Server 1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1" y="230" width="181" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ojg3U4iiqFWatlMNmjwo-3" value="POST" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ojg3U4iiqFWatlMNmjwo-15" target="ojg3U4iiqFWatlMNmjwo-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ojg3U4iiqFWatlMNmjwo-4" value="Java Application" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="255" width="120" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="ojg3U4iiqFWatlMNmjwo-14" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/devops/Application_Insights.svg;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="92.54" y="300" width="34.92" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ojg3U4iiqFWatlMNmjwo-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ojg3U4iiqFWatlMNmjwo-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ojg3U4iiqFWatlMNmjwo-17" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/devops/Application_Insights.svg;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="463" y="283.5" width="44" height="63" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
